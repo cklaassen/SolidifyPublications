@@ -7,7 +7,7 @@ body, html {
     
 .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
-    opacity: 0.65;
+    opacity: 1;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,13 +20,13 @@ body, html {
 }
     
 .bgimg-2 {
-    background-image: url("img.jpg");
-    min-height: 400px;
+    background-image: url("DFR.jpg");
+    min-height: 100%;
 }
     
 .bgimg-3 {
     background-image: url("img2.jpg");
-    min-height: 400px;
+    min-height: 100%;
 }
     
 .caption {
@@ -39,8 +39,8 @@ body, html {
 }
     
 .caption span.border {
-    background-color: #111;
-    color: #fff;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 18px;
     font-size: 25px;
     letter-spacing: 20px;
